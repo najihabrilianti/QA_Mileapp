@@ -1,0 +1,13 @@
+1.Sebutkan 3 Kesealahan besar yang paling sering dilakukan oleh QA lalu berikan solusi agar tidak terjadi atau terulang kembali ?
+  Jawab :
+	1. Terkadang lupa untuk menghapus cache saat melakukan testing pada browser, hal ini dapat dihindari dengan cara melakukan setting pada browser untuk melakukan penghapusan cache secara otomatis saat browser ditutup atau dapat menggunakan mode incognito
+	2. Melakukan testing yang berfokus atau berorientasi pada tujuan development dan mungkin berakibat pada sistem yang sudah ada, solusinya adalah dengan cara melakukan testing juga terhadap sistem yang berpotensi terkena dampak dari proses development
+	3. Tidak melakukan Testing multibrowser untuk sistem berjenis web, karena ada beberapa sistem web yang memiliki tampilan berbeda antar browser, jadi harus dilakukan testing multibrowser seperti mozilla, chrome, edge dan opera
+
+2.Jelaskan point - point terpenting yang harus diperhatikan Dalam menganalisa dan membuat Skenario Test ?
+  Jawab :
+	- Fungsi utama sistem yang sedang di development 
+	- Negative flow atau skenario negatif yang mungkin terjadi
+	- Impact ke fitur-fitur lain
+
+
